@@ -1,0 +1,4 @@
+## UI Development on iOS using Cocoa
+This workshop will go over the basics for working with Cocoa in Xcode to easily build dynamic, visually-driven applications (although really, what good mobile applications aren't visually-driven?).
+#### Key Takeaways
+Everything you need to know is on the [apple docs](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIKit_Framework/index.html#//apple_ref/doc/uid/TP40006955). Keep in mind that making your applications come to life requires a careful combination of Cocoa knowledge and comfort with Objective-C or Swift. Make good use of Interface Builder, but don't apply changes you don't understand!  
