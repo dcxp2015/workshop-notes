@@ -38,19 +38,20 @@ What's cool about the class files is that you can freely program IBActions and I
 }
 ```
 
-Note that the Apple [documentation]() holds all of the different Interface objects, usually denoted by UI in the front (e.g. UITableView) - this should be your bible when it comes to using native iOS interface objects - Android has a similar reference guide - most of these interface objects fall under the android.app package.
+Note that the Apple [documentation]() holds all of the different Interface objects, usually denoted by UI in the front (e.g. UITableView) - this should be your bible when it comes to using native iOS interface objects - Android has a similar [reference guide](http://developer.android.com/reference/android/app/package-summary.html) - most of these interface objects fall under the android.app package.
 
 ##### Interface Builder 
 Interface Builder is a drag-and-drop editor for iOS views. You just need to assign a view controller or another object to a corresponding class file. Then, through the inspector panel, you can assign IBActions and IBOutlets. 
 
 ##### A note about storyboards
 Interface Builder uses a scene management system called Storyboards. They are designed to make app flow design and visualization easy. The best way to understand how they work is with practice. That being said, keep the following in mind: 
-    - Storyboards are sets of scenes
-    - Scenes are containers consisting of different views
-    - Segues are transitions between scenes. 
-		- You should network your Segues in Interface Builder, but setup actual segue code (e.g. passing objects or information from one scene to another) in the view controller's segue methods (e.g. prepareForSegue)
-		- Segues should have identifiers (names)
-    - IBActions and IBObjects can only be set within a scene - I cannot link a button press in one scene to an action in another - unless... I use the responder chain - but I'll leave that as a homework assignment for you to look up
+
+- Storyboards are sets of scenes
+- Scenes are containers consisting of different views
+- Segues are transitions between scenes. 
+- You should network your Segues in Interface Builder, but setup actual segue code (e.g. passing objects or information from one scene to another) in the view controller's segue methods (e.g. prepareForSegue)
+- Segues should have identifiers (names)
+- IBActions and IBObjects can only be set within a scene - I cannot link a button press in one scene to an action in another - unless... I use the responder chain - but I'll leave that as a homework assignment for you to look up
 
 
 #### Key Takeaways
