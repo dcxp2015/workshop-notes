@@ -12,3 +12,15 @@ git clone http://github.com/user/repository
 If you do choose to use an interface, I personally recommend [SourceTree](https://www.sourcetreeapp.com), as it lets you have control exactly which lines get synced with each change. From SourceTree, you just need to connect an account (either GitHub, BitBucket, or Stash) and you can start cloning projects directly from your remote account. I'd recommend that you keep all of the projects you clone in separate folders within one larger workspace folder. This will help you keep all the projects using version control organized. You should familiarize yourself with
 #### Basic Git Concepts
 Once you have a copy of a project saved to your local machine, you can immediately start making changes! Each time you wish to store a set of changes, you make what's called a *commit*. A commit will store a set of changes on your local machine. You can then push your changes back up to the remote copy via the push command. Running the pull command will pull down remote changes onto your local version of the project. This system allows multiple people to work on the same project at once.  
+#### General Workflow 
+As a general rule, the workflow should go as follows: Commit->Pull->Push
+
+I would also recommend the following two guidelines for git workflow:
+- If two or more people are working on independent parts of the projects, work on different branches - it will help you track (and potentially revert) changes easily
+- If two people are working on the same file(s), work on the same branch - it will prevent conflicts from building up and becoming unmanagable
+
+#### Additional Reading
+Of course, these are just the bare basics. Here are some additional resources for slightly more advanced actions:
+
+- https://www.atlassian.com/git/
+- http://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide
