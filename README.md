@@ -8,3 +8,4 @@ Here are some links to check out when you get the chance:
 - Cool GitHub Projects: https://www.reddit.com/r/coolgithubprojects
 - Code Golf: http://codegolf.stackexchange.com
 - Puush Screencapture: http://puush.me
+- XSS Game: https://xss-game.appspot.com
